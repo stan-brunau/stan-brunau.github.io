@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,400&family=Open+Sans:ital,wght@0,300;0,500;1,500&display=swap');
+
+:root {
+    --color-primary: #3176f4;
+    --color-secondary: #fcfcfc;
+    --color-tertiary: #0a3458;
+    --color-highlight: #fcfcfc;
+    --color-contrast: #c6ebbe;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 300;
+    margin: 0;
+}
+
+header {
+    background-color: var(--color-primary);
+    color: var(--color-highlight);
+    height: 94vh;
+    margin: auto;
+    font-weight: 500;
+    overflow: hidden;
+}
+
+.headercontent {
+    padding-top: 30vh;
+}
+
+header p {
+    margin: 0;
+    color: var(--color-secondary);
+    font-size: 4vh;
+}
+
+header h1 {
+    font-family:'Merriweather', Georgia, serif;
+    text-shadow: 3px 2px black;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 12vh;
+}
+
+.contactinfo {
+    margin-top: 2rem;
+    word-spacing: 4rem;
+}
+
+.m80 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.indent {
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    font-weight: 500;
+    overflow: hidden;
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+}
+
+a:link {
+    color: var(--color-secondary);
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+a:visited {
+    color: var(--color-secondary);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-contrast);
+    text-decoration: none;
+}
+
+.navelements {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + main {
+    padding-top: 54.5px;
+}
+
+.shadoweffect {
+    text-shadow: none;
+    transition: text-shadow 0.2s ease-in-out;
+}
+
+.shadoweffect:hover {
+    text-shadow: 2px 2px 3px var(--color-tertiary);
+}
+
+main article {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+main h2 {
+    color: var(--color-primary);
+}
+
+main h3 {
+    color: var(--color-primary);
+}
+
+.entrytitle {
+    font-family:'Merriweather', Georgia, serif;
+}
+
+.entrydate {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 0.75rem;
+    overflow: hidden;
+}
+
+.contactdiv {
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+}
+
+.contactdiv h2 {
+    color: var(--color-secondary);
+}
+
+.contactdiv h3 {
+    color: var(--color-secondary);
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20vh;
+}
+
+.contactdiv li {
+    display: flex;
+    align-items: center;
+}
+
+.contactdiv a {
+    margin-left: 2rem;
+    font-weight: 500;
+}
+
+hr {
+    border: 0;
+    border-top: 2px dotted var(--color-primary);
+    width: 93%;
+}
+
+.badge-base {
+    float: right;
+}
