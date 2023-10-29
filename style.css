@@ -8,3 +8,7 @@ body {
 canvas {
     border: 3px solid lightgrey
 }
+
+.inputContainer {
+    margin: 0.5rem;
+}

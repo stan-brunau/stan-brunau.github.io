@@ -21,8 +21,18 @@
     </header>
     <main>
         <canvas id="canvas"></canvas>
-        <div>
-            <button onclick="main()">Generate new</button>
+        <div class="inputContainer">
+            <button id="new-button">Generate new</button>
+        </div>
+        <div class="inputContainer">
+            <div>
+                <input type="color" id="color1" name="color 1" value="#DC143C" />
+                <label for="color1">Color 1</label>
+            </div>
+            <div>
+                <input type="color" id="color2" name="color 2" value="#6495ED" />
+                <label for="color2">Color 2</label>
+            </div>
         </div>
     </main>
     <script src="hitomezashi.js"></script>
